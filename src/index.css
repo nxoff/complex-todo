@@ -1,0 +1,22 @@
+:root {
+	--primary: #aa6f00;
+	--white: #ffffff;
+	--grayish: #3f4249;
+	--dark-grayish: #202125;
+}
+
+body {
+	width: 100vw;
+	height: 100vh;
+	box-sizing: border-box;
+	font-family: system-ui;
+	margin: 0;
+}
+
+h1 {
+	color: var(--dark-grayish);
+	font-size: 3rem;
+	margin: 0;
+	padding-left: 30px;
+	padding-top: 20px;
+}
