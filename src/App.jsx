@@ -1,10 +1,15 @@
 import './App.css';
 
+import TodosManagment from './components/todos-managment/TodosManagment';
+
 function App() {
 	return (
 		<>
-			<section className='header-section'>
+			<header className='header-section'>
 				<h1>Todo App</h1>
+			</header>
+			<section className='todos-section'>
+				<TodosManagment />
 			</section>
 		</>
 	);

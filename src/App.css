@@ -1,4 +1,10 @@
 .header-section {
+	display: flex;
+	justify-content: center;
 	padding-bottom: 30px;
 	border-bottom: 1px solid var(--dark-grayish);
+}
+
+.todos-section {
+	margin-top: 30px;
 }
